@@ -39,6 +39,7 @@ The backend runs at `http://127.0.0.1:8000` by default.
 
 - `GET /health` - health check
 - `GET /api/symptoms` - list available symptoms
+- `GET /api/about` - system overview, algorithm summary, and FAQ data
 - `POST /api/diagnose` - run diagnosis based on symptoms, age, gender, and language
 - `POST /api/report` - generate a report from diagnosis results
 
